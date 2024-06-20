@@ -7,7 +7,7 @@ import crossicon from '../Assets/cross.jpg'
 
 
 const CartItems = () => {
-    const {all_product,cartItems,removeFromCart} = useContext(ShopContext)
+    const {getTotalCartAmount,all_product,cartItems,removeFromCart} = useContext(ShopContext)
   return (
     <div className='cartitems'>
         <div className="cartitems-format-main">
@@ -29,7 +29,7 @@ const CartItems = () => {
                    <p>${e.new_price}</p>
                    <button className='cartitems-quantity'>{cartItems[e.id]}</button>
                    <p>{e.new_price*cartItems[e.id]}</p>
-                   <img className='cartitems-remove-icon' src={crossicon} alt="" onClick={()=>{removeFromCart(e.id)}}  height={'25px'} width={'25px'}/>
+                   <img className='cartitems-remove-icon' src={crossicon} alt="" onClick={()=>{removeFromCart(e.id)}}  height={'28px'} width={'35px'}/>
                </div>
                <hr />
        
@@ -43,7 +43,7 @@ const CartItems = () => {
         </div>
         <div className="cartitems-total-item">
             <p>Subtotal</p>
-            <p>${0}</p>
+            <p>${getTotalCartAmount()}</p>
         </div>
         <hr />
         <div className="cartitems-total-items">
@@ -53,11 +53,16 @@ const CartItems = () => {
         <hr />
         <div className="cartitems-total-item">
             <h3>Total</h3>
-            <h3>${0}</h3>
+            <h3>${getTotalCartAmount()}</h3>
         </div>
       </div>
-      <button>Proceed to checkout</button>
+      <button className='cartitems-button'>Proceed to checkout</button>
       <div className="cartitems-promocode">
+        <p>if you have a promo code, Enter it here</p>
+        <div className="cart-items-promobox">
+          <input type="text" placeholder="" id="" />
+          <button>Submit</button>
+        </div>
 
 </div>
            </div>
