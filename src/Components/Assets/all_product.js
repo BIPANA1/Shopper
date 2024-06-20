@@ -29,7 +29,7 @@ let data_product = [
     },
     {
         id:3,
-        name: "Boys Orange Colorblocked Hooded Sweatshirt",
+        name: "High Quality Skirt with ardigian",
         category: "women",
         Image: img3,
         new_price: 50.00,
@@ -38,8 +38,8 @@ let data_product = [
     },
     {
         id:4,
-        name: "Boys Orange Colorblocked Hooded Sweatshirt",
-        category: "kid",
+        name: "Jeans Long Skirt with Tshirt",
+        category: "women",
         Image: img4,
         new_price: 50.00,
         old_price:90.50,
@@ -56,8 +56,8 @@ let data_product = [
     },
     {
         id:6,
-        name: "Boys Orange Colorblocked Hooded Sweatshirt",
-        category: "kid",
+        name: "Formal Pant with Offshoulder-Tshirt",
+        category: "women",
         Image: img6,
         new_price: 50.00,
         old_price:80.50,
@@ -67,7 +67,6 @@ let data_product = [
         id:7,
         name: "Boys Orange Colorblocked Hooded Sweatshirt",
         category: "kid",
-
         Image: img7,
         new_price: 50.00,
         old_price:80.50,
@@ -76,7 +75,7 @@ let data_product = [
     {
         id:8,
         name: "Boys Orange Colorblocked Hooded Sweatshirt",
-        category: "kid",
+        category: "women",
         Image: img8,
         new_price: 50.00,
         old_price:80.50,

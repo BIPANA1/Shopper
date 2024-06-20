@@ -25,7 +25,6 @@
 
 }
 .cartitems-remove-icon{
-    /* width: 15px; */
     margin: 0px 40px;
     cursor: pointer;
 
@@ -45,7 +44,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 200px;
-    gap:40px;
+    gap:20px;
 }
 .cartitems-total-item{
     display: flex;
@@ -70,16 +69,19 @@
     font-size: 16px;
     font-weight: 500;
 }
-.cartitems-promocode{
+.cartitems-promobox{
     width: 504px;
-    margin-top: 15px;
+    margin-top: 10px;
     padding-left: 20px;
     height: 58px;
     background: #eaeaea;
 }
+.cart-items-promobox{
+display: flex;
+}
 .cartitems-promocode button{
     width: 170px;
-    height: 58px;
+    height: 56px;
     font-size: 16px;
     background: black;
     color:white;
