@@ -29,7 +29,7 @@ let data_product = [
     },
     {
         id:3,
-        name: "High Quality Skirt with ardigian",
+        name: "High Quality Skirt with Cardigian",
         category: "women",
         Image: img3,
         new_price: 50.00,

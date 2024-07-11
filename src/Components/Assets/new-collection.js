@@ -98,7 +98,7 @@ let new_collection = [
 
     },
     {
-        id:9,
+        id:7,
         name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         Image: img9,
         new_price: 50.00,
